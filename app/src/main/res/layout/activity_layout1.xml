@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:background="@drawable/img"/>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="326dp"
+            android:layout_height="52dp"
+            android:layout_margin="40dp"
+            android:gravity="center"
+            android:text="order from a wide range of restaurants"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ellipse" />
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ellipse2" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ellipse2" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="253dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Ready to order from top restaurants?"
+            android:textSize="14dp"
+            />
+        <Button
+
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="32dp"
+            android:text="Set delivery address"
+            android:backgroundTint="#F37B17"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="have an account?"
+                android:textSize="14dp"
+
+                />
+            <TextView
+                android:layout_width="38dp"
+                android:layout_height="26dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="login"
+                android:textColor="#F37B17"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
