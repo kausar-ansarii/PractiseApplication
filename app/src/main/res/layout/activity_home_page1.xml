@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomePage1"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="430dp"
+        android:layout_height="90dp"
+        android:background="@color/black"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_margin="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_location_on_24">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kaneri"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:paddingTop="25dp"
+            ></TextView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_keyboard_arrow_up_24">
+
+        </ImageView>
+    </LinearLayout>
+        <LinearLayout
+            android:paddingStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="@color/white"
+                android:text="Kaneri, Bhiwandi, Mahrash..."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:textSize="16dp"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trending Dishes"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <ImageView
+        android:layout_marginStart="20dp"
+        android:layout_width="324dp"
+        android:layout_height="168dp"
+        android:background="@drawable/shahipaneer">
+    </ImageView>
+    <LinearLayout
+        android:layout_marginStart="20dp"
+        android:layout_width="324dp"
+
+        android:background="@drawable/roundedlinearlayoutdownside"
+        android:layout_height="66dp"></LinearLayout>
+</LinearLayout>
+
