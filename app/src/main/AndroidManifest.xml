@@ -14,6 +14,36 @@
         android:theme="@style/Theme.PractiseApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Remaining"
+            android:exported="false" />
+        <activity
+            android:name=".cartpage3"
+            android:exported="false" />
+        <activity
+            android:name=".Search_Page1"
+            android:exported="false" />
+        <activity
+            android:name=".Select_Location"
+            android:exported="false" />
+        <activity
+            android:name=".Otpverification_successfull"
+            android:exported="false" />
+        <activity
+            android:name=".Verify_otp_enabled"
+            android:exported="false" />
+        <activity
+            android:name=".Verify_Otp"
+            android:exported="false" />
+        <activity
+            android:name=".Get_otp_enabled"
+            android:exported="false" />
+        <activity
+            android:name=".Ger_otp"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
             android:name=".SearchPage"
             android:exported="false" />
         <activity

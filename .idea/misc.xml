@@ -3,12 +3,39 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/blackbutton.xml" value="0.169" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/border.xml" value="0.169" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/button.xml" value="0.169" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.181" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/ic_baseline_shopping_bag_24.xml" value="0.181" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/linearradius.xml" value="0.169" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/linearradius2.xml" value="0.2115" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/linearround.xml" value="0.181" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/otprounded.xml" value="0.169" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/otprounded2.xml" value="0.169" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/roundedbutton.xml" value="0.169" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/roundedbutton1.xml" value="0.169" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/roundededittext.xml" value="0.207" />
         <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/roundedtextbox.xml" value="0.169" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_layout1.xml" value="0.13236627379873073" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/roundedtextvieww.xml" value="0.2115" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/secondborder.xml" value="0.169" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/textviewradius.xml" value="0.169" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/drawable/unfilledbtn.xml" value="0.169" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_cartpage3.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_ger_otp.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_get_otp_enabled.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_layout1.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_layout2.xml" value="0.15604959384352288" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_search_page.xml" value="0.15604959384352288" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_splash_screen2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_otpverification_successfull.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_profile.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_remaining.xml" value="0.16047144152311876" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_search_page.xml" value="0.17" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_search_page1.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_select_location.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_splash_screen2.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_verify_otp.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PractiseApplication/app/src/main/res/layout/activity_verify_otp_enabled.xml" value="0.19" />
       </map>
     </option>
   </component>

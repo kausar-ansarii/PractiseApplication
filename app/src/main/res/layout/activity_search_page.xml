@@ -5,13 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".SearchPage"
     android:background="#ECF4FF">
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="146dp"
+        android:layout_height="160dp"
+        android:orientation="vertical"
         android:background="@color/black">
         <EditText
             android:layout_width="375dp"
@@ -23,6 +25,49 @@
 
         </EditText>
 
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="18dp"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedbutton"
+            android:text="Dishes"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textAlignment="center">
+
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/"
+            android:text="restaurant"
+            android:textColor="#ECF4FF"
+            android:textSize="13dp"
+            android:textAlignment="center">
+
+        </Button>
+
     </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text='We could not find any results for \"Biryani Pizza\" '
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/union"
+        android:layout_margin="35dp"
+        >
+
+    </TextView>
+
+
 
 </LinearLayout>

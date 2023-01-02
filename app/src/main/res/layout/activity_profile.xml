@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchPage"
+    android:background="#ECF4FF">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+android:paddingTop="15dp"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:text="PROFILE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="27dp">
+
+    </TextView>
+</LinearLayout>
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="18dp"
+        android:paddingTop="10dp"
+        android:text="Hassan Momin"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:text="demo@gmail.com"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Line"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:drawablePadding="20dp"
+            android:textSize="22dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/Vector"
+            android:layout_margin="20dp"
+            >
+
+        </TextView>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order history"
+            android:textSize="22dp"
+            android:drawablePadding="20dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/vctr"
+            android:layout_margin="20dp"
+            >
+
+        </TextView>
+        <TextView
+            android:gravity="center"
+            android:drawablePadding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivery"
+            android:textSize="22dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/delivery"
+            android:layout_margin="20dp"
+            >
+
+        </TextView>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:drawablePadding="20dp"
+            android:textSize="22dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/profile"
+            android:layout_margin="20dp"
+            >
+
+        </TextView>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:text="Report Us"
+            android:textSize="22dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/help"
+            android:layout_margin="20dp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/Line" />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/logout"
+
+       android:layout_marginTop="80dp"
+        android:text="LOGOUT"
+        android:drawablePadding="20dp"
+        android:textColor="@color/black"
+        android:textSize="22dp">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:paddingStart="20dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/salad"
+            android:layout_marginTop="15dp"
+            android:layout_margin="20dp"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectanglestroke"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="100dp"
+            android:layout_margin="20dp"/>
+
+        <EditText
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/blackbutton" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_shopping_bag_24"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="100dp"
+            android:layout_margin="20dp"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_person_outline_24"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="100dp"
+            android:layout_margin="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
