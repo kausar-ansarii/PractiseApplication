@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF4FF"
+    tools:context=".OrderSuccessful"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/black">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="40dp"
+            android:text="ORDER DELIVERED"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_baseline_chevron_left_24"
+            android:hint=" Search food, restuarant and more....">
+
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:background="@drawable/roundedlinearlayout"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_height="100dp"
+        android:layout_width="388dp">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="200dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="YOU RECIEVED THE ORDER!"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:paddingStart="10dp"
+                android:text="ORDER ID: 012012"
+                android:layout_margin="10dp"
+
+                >
+            </TextView>
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="130dp"
+                android:background="@drawable/roundebtn">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    gravity="center"
+                    android:paddingRight="200dp"
+                    android:paddingTop="100dp"
+                    android:background="@drawable/tick">
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Select payment method"
+        android:textSize="27dp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        >
+    </TextView>
+    <LinearLayout
+
+        android:background="@drawable/roundedlinearlayout"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="100dp"
+        android:layout_width="388dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/star"
+            android:layout_height="20dp"
+            android:layout_width="21dp">
+        </ImageView>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:background="@drawable/star"
+            android:layout_height="20dp"
+            android:layout_width="21dp">
+        </ImageView>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:background="@drawable/star"
+            android:layout_height="20dp"
+            android:layout_width="21dp">
+        </ImageView>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:background="@drawable/star"
+            android:layout_height="20dp"
+            android:layout_width="21dp">
+        </ImageView>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:background="@drawable/star"
+            android:layout_height="20dp"
+            android:layout_width="21dp">
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+
+        android:background="@drawable/roundedlinearlayout"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_height="150dp"
+        android:layout_width="388dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:paddingStart="20dp"
+            android:text="Write your review..."
+            android:textSize="17dp"
+            android:textColor="#3A3A3A"
+            android:layout_margin="10dp"
+
+            >
+        </TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="388dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/orangebtn"
+
+        android:text="Submit"></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Skip"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="#F17006"
+        >
+    </TextView>
+
+</LinearLayout>

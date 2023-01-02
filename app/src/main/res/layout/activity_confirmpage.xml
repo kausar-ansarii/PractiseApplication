@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".confirmpage"
+    android:orientation="vertical"
+    android:background="#ECF4FF"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/black">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="40dp"
+            android:text="Confirm Page"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:drawableLeft="@drawable/ic_baseline_chevron_left_24"
+           >
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/roundedlinearlayout"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:layout_width="388dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:paddingStart="20dp"
+            android:text="Manchurian pizza"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textColor="#3A3A3A"
+            android:layout_margin="10dp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:paddingStart="20dp"
+            android:text="Medium,Classic Hand Tossed,Cheese"
+            android:textSize="17dp"
+            android:textColor="#3A3A3A"
+           android:layout_marginLeft="10dp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:paddingStart="20dp"
+            android:text="Rs 120"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textColor="#F17006"
+            android:layout_margin="10dp"
+            >
+        </TextView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Address"
+        android:textSize="20dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:textColor="#3A3A3A"
+        >
+    </TextView>
+    <LinearLayout
+        android:background="@drawable/roundedlinearlayout"
+        android:layout_gravity="center"
+        android:layout_height="84dp"
+        android:layout_width="388dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_margin="25dp"
+             android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/ic_baseline_location_on_24">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+           <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Work"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="19dp"
+            android:textSize="15dp"
+               android:textColor="#3A3A3A"
+            >
+        </TextView>
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="30dp"
+                android:text="106 Ameen Apartment Kaneri Bhiwa.."
+                android:layout_marginStart="19dp"
+                android:textSize="11dp"
+                android:textColor="#3A3A3A"
+                ></TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_gravity="center"
+            android:layout_height="20dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/ic_baseline_arrow_forward_ios_24">
+        </ImageView>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Select Payment Method"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="19dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#3A3A3A"
+        >
+    </TextView>
+    <LinearLayout
+        android:background="@drawable/roundedlinearlayout"
+        android:layout_gravity="center"
+        android:layout_height="136dp"
+        android:layout_width="388dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:text="Cash On Delivery"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="19dp"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="#3A3A3A"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_outline_circle_24"></ImageView>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:text="Paytm"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="19dp"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="#3A3A3A"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_outline_circle_24"></ImageView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Add Coupon"
+        android:textSize="20dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="#3A3A3A"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="388dp"
+        android:layout_height="136dp"
+        android:background="@drawable/roundedlinearlayout"
+        android:layout_margin="10dp"></LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Bill Details"
+        android:textSize="20dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="#3A3A3A"
+        ></TextView>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="388dp"
+        android:layout_height="165dp"
+        android:background="@drawable/roundedlinearlayout"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:text="Item Total"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Rs.240"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_margin="20dp"
+                ></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:text="Item Discount"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Rs.100"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="#00AD45"
+                android:layout_margin="20dp"
+                ></TextView>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:text="To Pay"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Rs.140"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="#F17006"
+                android:layout_margin="20dp"
+                ></TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="218dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Total Amount"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#F17006"
+            android:layout_marginStart="10dp"
+            ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Rs 400"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                ></TextView>
+        </LinearLayout>
+        <Button
+            android:layout_width="160dp"
+            android:layout_margin="10dp"
+            android:layout_height="44dp"
+            android:text="PAY NOW"
+            android:textColor="@color/white"
+            android:background="#F17006"></Button>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
